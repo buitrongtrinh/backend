@@ -5,8 +5,8 @@
   "main": "src/app.ts",
   "type": "commonjs",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
